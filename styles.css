@@ -1,0 +1,288 @@
+* {
+    Margin:0;
+    Padding:0;
+    Border: none;
+    Text-decoration: none;
+    Box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: regular;
+}
+
+html {
+    Font-size:  62.5%
+    }
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: #239aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    width: 100%
+}
+
+main {
+    display: grid;
+    grid-template-columns: 49rem 54.7rem;
+    color: #314363;
+    margin-left: 26.5rem;
+    margin-top: 5.0rem;
+}
+
+form {
+    background-color: #239aff;
+    border: #314363 0.2rem solid;
+    padding: 1.5rem;
+    width: 49.0rem;
+}
+
+footer {
+    margin-top: 5.0rem;
+    background-color: #239aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    width: 100%
+}
+
+.h1-header {
+    font-size: 2.6rem;
+}
+
+.span-header{
+    font-size: 2.0rem;
+    margin-right: 25.0rem;
+    color: black;
+}
+
+.a-header {
+   margin-left: 1.0rem;
+   color:#f2f2f2;
+}
+
+.sidebar {
+    margin-top: 1.27rem;
+    margin-left: 16.0rem;
+    margin-right: 9.7rem;
+    background-color: #314363;
+    width: 22.0rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sidebar {
+    width: 39.0rem;
+    height: 39.0rem;
+    margin-right: 2.5rem;
+    margin-bottom: 40.0rem;
+}
+
+.a-main {
+    font-size: 2.2rem;
+}
+
+.span-main {
+    margin-right: 0.2rem;
+}
+
+.h1-main {
+    margin-top: 7.7rem;
+    margin-bottom: 3.5rem;
+    font-size: 5.0rem;
+}
+
+.h3-main {
+    margin-bottom: 3.0rem;
+    font-size: 3.5rem;
+}
+
+.h4-main {
+    margin-bottom: 1.0rem;
+    font-size: 2.2rem;
+}
+
+.p-main {
+    margin-bottom: 3.0rem;
+    font-family: PT serif;
+    font-size: 1.9rem;
+}
+
+.h2-form {
+    font-size: 2.6rem;
+}
+
+.div-form {
+    border: solid 0.2rem #314363;
+    padding: 2.0rem;
+}
+
+.label-form {
+    font-size: 2.2rem;
+}
+
+.input-form {
+    display: block;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    width: 41.2rem;
+    height: 3.3rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.label-form-inline {
+    font-size: 2.2rem;
+    position: absolute;
+}
+
+.input-form-inline-menor {
+    margin-top: 4.0rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.0rem;
+    width: 17.3rem;
+    height: 3.3rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.input-form-inline-maior {
+    width: 22.0rem;
+    height: 3.3rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.div-form-anexar-curriculo {
+    margin-top: 4.5rem;
+    margin-bottom: 4.2rem;
+    display: flex;
+}
+
+.label-form-anexar-curriculo {
+    position: absolute;
+    font-size: 2.0rem;
+}
+
+.button-form-anexar-curriculo {
+    margin-top: 4.0rem;
+    margin-right: 1.0rem;
+    width: 16.5rem;
+    height: 4.0rem;
+    font-size: 2.0rem;
+    color: #f2f2f2;
+    background: #4A85AF;
+}
+
+.p-form-anexar-curriculo {
+   margin-top: 3.5rem;
+   font-size: 1.4rem;
+   font-weight: ligth;
+   width: 25.0rem;
+}
+
+.div-form-button-submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-form-submit {
+    width: 16.5rem;
+    height: 4.0rem;
+    font-size: 2.0rem;
+    color: #f2f2f2;
+    background-color: #314363;
+    margin-top: 2.0rem;
+}
+
+.h1-footer {
+    font-size: 2.0rem;
+}
+
+.p3-footer {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.span-footer {
+    font-size: 1.4rem;
+    margin-left: 0.2rem;
+    margin-right: 70.0rem;
+}
+
+@media (max-width: 1400px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width: 1250px) {
+    html {
+        font-size: 50%;
+    }
+}
+ 
+@media (max-width: 1000px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 750px) {
+    html {
+        font-size: 25%;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 20%;
+    }
+}
+
+@media (max-width: 430px) {
+    html {
+        font-size: 18%;
+    }
+}
+
+@media (max-width: 380px) {
+    html {
+        font-size: 16%;
+    }
+}
+
+@media (max-width: 330px) {
+    html {
+        font-size: 15%;
+    }
+}
+
+@media (max-width: 310px) {
+    html {
+        font-size: 10%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    img {
+        width: 25.5%;
+    }
+} 
