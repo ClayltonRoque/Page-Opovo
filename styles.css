@@ -10,7 +10,7 @@
 
 html {
     Font-size:  62.5%
-    }
+}
 
 body {
     display:flex;
@@ -25,14 +25,14 @@ header {
     justify-content: center;
     align-items: center;
     color: #f2f2f2;
-    width: 100%
+    width: 100%;
+    padding: 5px;
 }
 
 main {
     display: grid;
     grid-template-columns: 49rem 54.7rem;
     color: #314363;
-    margin-left: 26.5rem;
     margin-top: 5.0rem;
 }
 
@@ -44,36 +44,39 @@ form {
 }
 
 footer {
-    margin-top: 5.0rem;
+    margin-top: 10.0rem;
     background-color: #239aff;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: #f2f2f2;
-    width: 100%
+    width: 100%;
+    padding: 5px; 
 }
 
 .h1-header {
-    font-size: 2.6rem;
+    font-size: 3.5rem;
 }
 
 .span-header{
-    font-size: 2.0rem;
-    margin-right: 25.0rem;
+    font-size: 2.6rem;
+    margin-left: 5px;
+    margin-right: 19rem;
     color: black;
 }
 
 .a-header {
-   margin-left: 1.0rem;
+   margin-left: 1.5rem;
+   font-size: 2.6rem;
    color:#f2f2f2;
 }
 
 .sidebar {
-    margin-top: 1.27rem;
-    margin-left: 16.0rem;
+    margin-top: 8.7rem;
+    margin-left: 22.0rem;
     margin-right: 9.7rem;
     background-color: #314363;
-    width: 22.0rem;
+    width: 29.0rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -84,8 +87,8 @@ footer {
 .img-sidebar {
     width: 39.0rem;
     height: 39.0rem;
-    margin-right: 2.5rem;
-    margin-bottom: 40.0rem;
+    margin-right: 9.5rem;
+    margin-bottom: 41.0rem;
 }
 
 .a-main {
@@ -93,11 +96,11 @@ footer {
 }
 
 .span-main {
-    margin-right: 0.2rem;
+    margin-right: 0.5rem;
 }
 
 .h1-main {
-    margin-top: 7.7rem;
+    margin-top: 5.0rem;
     margin-bottom: 3.5rem;
     font-size: 5.0rem;
 }
@@ -139,6 +142,8 @@ footer {
     height: 3.3rem;
     outline: none;
     padding: 0.5rem;
+    border: 3px solid #4A85AF;
+    border-radius: 5px;
 }
 
 .label-form-inline {
@@ -154,6 +159,8 @@ footer {
     height: 3.3rem;
     outline: none;
     padding: 0.5rem;
+    border: 3px solid #4A85AF;
+    border-radius: 5px;
 }
 
 .input-form-inline-maior {
@@ -161,6 +168,8 @@ footer {
     height: 3.3rem;
     outline: none;
     padding: 0.5rem;
+    border: 3px solid #4A85AF;
+    border-radius: 5px;
 }
 
 .div-form-anexar-curriculo {
@@ -185,8 +194,8 @@ footer {
 }
 
 .p-form-anexar-curriculo {
-   margin-top: 3.5rem;
-   font-size: 1.4rem;
+   margin-top: 3rem;
+   font-size: 1.6rem;
    font-weight: ligth;
    width: 25.0rem;
 }
@@ -206,18 +215,18 @@ footer {
 }
 
 .h1-footer {
-    font-size: 2.0rem;
+    font-size: 2.4rem;
 }
 
 .p3-footer {
     font-size: 1.1rem;
-    margin-top: 0.5rem;
+    margin-left: 25.0rem;
 }
 
 .span-footer {
-    font-size: 1.4rem;
-    margin-left: 0.2rem;
-    margin-right: 70.0rem;
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    color: black;
 }
 
 @media (max-width: 1400px) {
@@ -246,7 +255,7 @@ footer {
 
 @media (max-width: 750px) {
     html {
-        font-size: 25%;
+        font-size: 30%;
     }
 }
 
