@@ -48,8 +48,14 @@
                 <h4 class="h4-main">Horário de trabalho</h3>
                 <p class="p-main">8 - 18h</p>
             </div>
-            <form>
+            <!-- link do formspree.io: https://formspree.io/f/mjvzobbv 
+            arquivos só podem ser passados se tiver conta premium além de ter o enctype="multipart/form-data"
+            o form abaixo enviar o dados para o meu email claylton202@gmail.com-->
+            <form id="form-curriculo" action = "https://formspree.io/f/mjvzobbv" method="post" 
+            target="_blank" >
                 <div class="div-form">
+                    <input type="hidden" name="Subject" value="Curriculo">
+                    <input type="hidden" name="Body" value="">
                     <h2 class="h2-form">Envie seu currículo</h2>
                     <div>
                         <label for="nome" class="label-form">Nome</label>
@@ -77,15 +83,16 @@
                         </div>
                         <div>
                             <label for="cidade" class="label-form-inline">Cidade</label>
-                            <input name="bairro" class="input-form-inline-menor"/>
+                            <input name="cidade" class="input-form-inline-menor"/>
                             
                             <label for="estado" class="label-form-inline">Estado</label>
-                            <input name="bairro" class="input-form-inline-maior"/>
+                            <input name="estado" class="input-form-inline-maior"/>
                         </div>
                 
                         <div class="div-form-anexar-curriculo">
                             <label for="currículo" class="label-form-anexar-curriculo">Currículo</label>
-                            <button class="button-form-anexar-curriculo">Anexar currículo</button>
+                            <input id="currículo" type="file" name="currículo" 
+                            placeholder="Anexar currículo" class="input-form-anexar-curriculo" accept="image/pdf" />
                             <p class="p-form-anexar-curriculo">Todos os campos são obrigatórios <br/> Tamanho máximo para upload - 10mb<br/>
                                 Tipo do arquivo: .pdf ou .doc </p>
                         </div> 
@@ -93,7 +100,7 @@
                 
             </div>
             <div class="div-form-button-submit">
-                <button class="button-form-submit">Enviar currículo</button>
+                <button type="submit" class="button-form-submit">Enviar currículo</button>
             </div>
         </form>
     </div>
@@ -105,5 +112,6 @@
         <h1 class="h1-footer"><span style="color: #000;">O</span>POVO<span class="span-footer">online</span></h1>
         <p class="p3-footer">Copyright© 1997-2016</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -180,18 +180,21 @@ footer {
 }
 
 .label-form-anexar-curriculo {
-    position: absolute;
-    font-size: 2.0rem;
-}
-
-.button-form-anexar-curriculo {
     margin-top: 4.0rem;
     margin-right: 1.0rem;
+    font-size: 2.0rem;
     width: 16.5rem;
     height: 4.0rem;
-    font-size: 2.0rem;
-    color: #f2f2f2;
     background: #4A85AF;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-form-anexar-curriculo {
+    display: none;
 }
 
 .p-form-anexar-curriculo {
@@ -282,7 +285,7 @@ footer {
     .input-form {
         height: 5.0rem;
     }
-
+}
 @media (max-width: 500px) {
     html {
         font-size: 25%;
