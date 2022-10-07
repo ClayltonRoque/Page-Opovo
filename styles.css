@@ -6,6 +6,7 @@
     Box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
     font-weight: regular;
+    
 }
 
 html {
@@ -255,37 +256,68 @@ footer {
 
 @media (max-width: 750px) {
     html {
-        font-size: 30%;
+        font-size: 25%;
+    }
+    main {
+        grid-template-columns: 30rem 40rem;
+    }
+    .span-header {
+        margin-right: 5rem;
+    }
+    .input-form-inline-maior {
+        width: 21rem;
     }
 }
 
 @media (max-width: 500px) {
     html {
-        font-size: 20%;
+        font-size: 25%;
+    }
+    main {
+        grid-template-columns: 30rem 40rem;
+    }
+    .span-header {
+        margin-right: 2rem;
+    }
+    .input-form-inline-maior {
+        width: 21rem;
     }
 }
 
 @media (max-width: 430px) {
     html {
-        font-size: 18%;
+        font-size: 25%;
     }
+ 
 }
 
 @media (max-width: 380px) {
     html {
-        font-size: 16%;
+        font-size: 25%;
+    }
+    main {
+        grid-template-columns: 30rem 40rem;
     }
 }
 
 @media (max-width: 330px) {
     html {
-        font-size: 15%;
+        font-size: 30%;
+    }
+    main {
+        grid-template-columns: 30rem;
+    }
+    .input-form-inline-maior {
+        width: 19rem;
     }
 }
 
 @media (max-width: 310px) {
     html {
-        font-size: 10%;
+        font-size: 25%;
+    }
+    main {
+        grid-template-columns: 30rem 40rem;
     }
 }
 
