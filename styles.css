@@ -230,6 +230,12 @@ footer {
     color: black;
 }
 
+@media (max-width: 1900px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
 @media (max-width: 1400px) {
     html {
         font-size: 62.5%;
@@ -264,10 +270,18 @@ footer {
     .span-header {
         margin-right: 5rem;
     }
-    .input-form-inline-maior {
+    .input-form-inline-maior {   
+        height: 5.0rem;
         width: 21rem;
     }
-}
+
+    .input-form-inline-menor {
+        height: 5.0rem;
+    }
+
+    .input-form {
+        height: 5.0rem;
+    }
 
 @media (max-width: 500px) {
     html {
